@@ -29,6 +29,7 @@ RUN mkdir -p /tmp
 
 RUN git clone https://github.com/CodeLoversAt/search-awesome.git /tmp/search-awesome
 WORKDIR /tmp/search-awesome
+RUN git checkout hhvm && git pull
 
 # copy config
 ADD conf/parameters.yml /tmp/search-awesome/app/config/parameters.yml
