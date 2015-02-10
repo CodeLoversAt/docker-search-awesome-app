@@ -1,0 +1,25 @@
+
+parameters:
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: ThisTokenIsNotSoSecretChangeIt
+    debug_toolbar: false
+    debug_redirects: false
+    use_assetic_controller: false
+    mongo_host: mongodb
+    mongo_port: 27017
+    mongo_database: search_awesome_app
+    uglify_css: uglifycss
+    uglify_js: uglifyjs
+    node_path: node
+    node_modules: /usr/lib/node_modules/
+    coffee_path: /usr/local/bin/coffee
+    sass_path: /usr/bin/sass
+    delivery_address: null
+    app_domain: null
+    recaptcha_public_key: null
+    recaptcha_private_key: null
+    recaptcha_session_key: _recaptcha_valid
